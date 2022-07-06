@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/projet14Pages.git/static/css/main.b3bea0b5.css",
-    "main.js": "/projet14Pages.git/static/js/main.b5febdaa.js",
-    "index.html": "/projet14Pages.git/index.html",
-    "main.b3bea0b5.css.map": "/projet14Pages.git/static/css/main.b3bea0b5.css.map",
-    "main.b5febdaa.js.map": "/projet14Pages.git/static/js/main.b5febdaa.js.map"
+    "main.css": "/projet14Pages/static/css/main.b3bea0b5.css",
+    "main.js": "/projet14Pages/static/js/main.b5febdaa.js",
+    "index.html": "/projet14Pages/index.html",
+    "main.b3bea0b5.css.map": "/projet14Pages/static/css/main.b3bea0b5.css.map",
+    "main.b5febdaa.js.map": "/projet14Pages/static/js/main.b5febdaa.js.map"
   },
   "entrypoints": [
     "static/css/main.b3bea0b5.css",
