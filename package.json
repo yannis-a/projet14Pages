@@ -2,7 +2,7 @@
   "name": "wealth-health",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yannis-a.github.io/projet14Pages.git",
+  "homepage": "https://yannis-a.github.io/projet14Pages",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
