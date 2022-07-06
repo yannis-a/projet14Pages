@@ -1,0 +1,91 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192);
+    border-image: initial;
+}
+
+.address {
+    margin-top: 10px;
+}
+
+#department {
+    width: 100%;
+}
+.addEmployee {
+    margin: 1rem 0;
+    align-self: center;
+}
+label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+legend {
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+.react-datepicker-wrapper {
+    width: auto !important;
+}
+
+.table,
+.ag-theme-alpine {
+    width: 1024px !important;
+    height: 720px !important;
+}
+.search {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.ag-header-cell-text{
+    white-space: break-spaces!important;
+    text-align: center;
+}
+.table-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.returnAtHome{
+    position: relative;
+    bottom: 0;
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
