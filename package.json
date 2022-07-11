@@ -1,7 +1,7 @@
 {
   "name": "wealth-health",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://yannis-a.github.io/projet14Pages",
   "dependencies": {
     "@emotion/react": "^11.9.3",
@@ -28,6 +28,7 @@
     "react-select-country-list": "^2.2.3",
     "reactal": "^1.1.2",
     "redux-persist": "^6.0.0",
+    "sass": "^1.53.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -35,8 +36,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

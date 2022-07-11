@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { employeeSlice } from "./features/employee/employeeSlice";
+import { employeeSlice } from "../features/employee/employeeSlice";
 import storage from "redux-persist/lib/storage";
 import {
   persistReducer,
