@@ -41,7 +41,9 @@ const Form = () => {
         <h1>HRnet</h1>
       </div>
       <div className="container">
-        <a href="/employees">View Current Employees</a>
+        <a href={process.env.PUBLIC_URL + "/employees"} >
+          View Current Employees
+        </a>
         <h2 className="sr-only">Create Employee</h2>
         <Formik
           initialValues={{

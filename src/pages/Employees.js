@@ -9,7 +9,9 @@ const Employees = () => {
     <div className="container">
       <h1>Current Employees</h1>
       <Table data={employees} />
-      <a className="returnAtHome" href="/">Home</a>
+      <a className="returnAtHome" href={process.env.PUBLIC_URL} >
+        Home
+      </a>
     </div>
   );
 };
